@@ -8,7 +8,7 @@ print_info() {
     # info "Host" model
     # info "Kernel" kernel
     # info "Uptime" uptime
-    # info "Packages" packages
+    info "Packages" packages
     info "Shell" shell
     # info "Resolution" resolution
     info "DE" de
@@ -702,7 +702,7 @@ image_source="ascii"
 #       Slackware, SunOS, LinuxLite, OpenSUSE, Raspbian,
 #       postmarketOS, and Void have a smaller logo variant.
 #       Use '{distro name}_small' to use the small variants.
-ascii_distro="auto"
+ascii_distro="Ubuntu_small"
 
 # Ascii Colors
 #
