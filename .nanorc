@@ -2,3 +2,6 @@ set tabsize 4
 set tabstospaces
 set linenumbers
 set softwrap
+set mouse
+set titlecolor bold,,normal
+set numbercolor ,normal
