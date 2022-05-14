@@ -1,14 +1,6 @@
 # dotfiles
 
-My personal dotfiles
-
 ## Install
-
-- [ ] Use a `Makefile` to install all the appropriate config files to the correct location and with the correct names 
-
-    For example, `.nanorc` -> `~/.config/neofetch/config.conf`
-
-### Install specific file
 
 If not specified below, the config files can be moved to `$HOME`
 
@@ -22,6 +14,13 @@ If you are unsure about the operation, you may use a prompted copy
 cp -i .bashrc ~/
 ```
 
+### DNF
+
+```text
+mv /etc/dnf/dnf.conf /etc/dnf/dnf.conf.backup
+cp .dnfconf /etc/dnf/dnf.conf
+```
+
 ### Guake
 
 ```text
@@ -33,3 +32,9 @@ guake --restore-preferences .guake
 ```text
 cp .neofetch ~/.config/neofetch/config.conf
 ```
+
+## Future work
+
+- Use a `Makefile` to install all the appropriate config files to the correct location and with the correct names 
+
+    For example, `.neofetch` -> `~/.config/neofetch/config.conf`
