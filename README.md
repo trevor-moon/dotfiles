@@ -14,6 +14,13 @@ If you are unsure about the operation, you may use a prompted copy
 cp -i .bashrc ~/
 ```
 
+### DNF
+
+```text
+mv /etc/dnf/dnf.conf /etc/dnf/dnf.conf.backup
+cp .dnfconf /etc/dnf/dnf.conf
+```
+
 ### Guake
 
 ```text
