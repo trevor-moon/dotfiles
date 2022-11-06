@@ -60,4 +60,4 @@ export GITAWAREPROMPT="$HOME/.bash/git-aware-prompt"
 
 # change bash profile
 export DEFAULT_PS1="[\u@\h \W]\\$ "
-export PS1="[\u@\h \w]\e[0;32m$\e[m "
+export PS1="[\u@\h \w]\[\033[0;32m\]$\[\033[00m\] "
